@@ -1,0 +1,61 @@
+version = "1300.6.0"
+format_version = "1.0"
+name = "LibTAPITblgen"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "LibTAPITblgen"
+platform = "x86_64-linux-gnu"
+lazy = "false"
+src_version = "1300.6.5"
+
+    [builds.artifact]
+    treehash = "sha1:912feebf125d8dc10cfa41b4e3bcf159a3beb615"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:7abac98cede98efde1c6e63d872ff45dbca5815faf571d167c3b2e90d7787dd5"
+        url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen.v1300.6.0.x86_64-linux-gnu.tar.gz"
+
+    [[builds.licenses]]
+    filename = "LICENSE.APPLE-LIBTAPI.txt"
+    license_type = "NCSA"
+    license_text = """==============================================================================\ntapi License\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2011-2016 by the contributors listed in CREDITS.TXT\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n==============================================================================\nThe lld software contains code written by third parties.  Such software will\nhave its own individual LICENSE.TXT file in the directory in which it appears.\nThis file will describe the copyrights, license, and restrictions which apply\nto that code.\n\nThe disclaimer of warranty in the University of Illinois Open Source License\napplies to all code in the lld Distribution, and nothing in any of the\nother licenses gives permission to use the names of the LLVM Team or the\nUniversity of Illinois to endorse or promote products derived from this\nSoftware.\n\nThe following pieces of software have additional or alternate copyrights,\nlicenses, and/or restrictions:\n\nProgram             Directory\n-------             ---------\n<none yet>\n"""
+    [[builds.licenses]]
+    filename = "LICENSE.LLVM.txt"
+    license_type = "NCSA"
+    license_text = """==============================================================================\nLLVM Release License\n==============================================================================\nUniversity of Illinois/NCSA\nOpen Source License\n\nCopyright (c) 2003-2017 University of Illinois at Urbana-Champaign.\nAll rights reserved.\n\nDeveloped by:\n\n    LLVM Team\n\n    University of Illinois at Urbana-Champaign\n\n    http://llvm.org\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of\nthis software and associated documentation files (the \"Software\"), to deal with\nthe Software without restriction, including without limitation the rights to\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies\nof the Software, and to permit persons to whom the Software is furnished to do\nso, subject to the following conditions:\n\n    * Redistributions of source code must retain the above copyright notice,\n      this list of conditions and the following disclaimers.\n\n    * Redistributions in binary form must reproduce the above copyright notice,\n      this list of conditions and the following disclaimers in the\n      documentation and/or other materials provided with the distribution.\n\n    * Neither the names of the LLVM Team, University of Illinois at\n      Urbana-Champaign, nor the names of its contributors may be used to\n      endorse or promote products derived from this Software without specific\n      prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nCONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE\nSOFTWARE.\n\n==============================================================================\nCopyrights and Licenses for Third Party Software Distributed with LLVM:\n==============================================================================\nThe LLVM software contains code written by third parties.  Such software will\nhave its own individual LICENSE.TXT file in the directory in which it appears.\nThis file will describe the copyrights, license, and restrictions which apply\nto that code.\n\nThe disclaimer of warranty in the University of Illinois Open Source License\napplies to all code in the LLVM Distribution, and nothing in any of the\nother licenses gives permission to use the names of the LLVM Team or the\nUniversity of Illinois to endorse or promote products derived from this\nSoftware.\n\nThe following pieces of software have additional or alternate copyrights,\nlicenses, and/or restrictions:\n\nProgram             Directory\n-------             ---------\nGoogle Test         llvm/utils/unittest/googletest\nOpenBSD regex       llvm/lib/Support/{reg*, COPYRIGHT.regex}\npyyaml tests        llvm/test/YAMLParser/{*.data, LICENSE.TXT}\nARM contributions   llvm/lib/Target/ARM/LICENSE.TXT\nmd5 contributions   llvm/lib/Support/MD5.cpp llvm/include/llvm/Support/MD5.h\n"""
+
+    [[builds.products]]
+    path = "bin/llvm-tblgen"
+    type = "executable"
+    name = "llvm_tblgen"
+    [[builds.products]]
+    path = "bin/clang-tblgen"
+    type = "executable"
+    name = "clang_tblgen"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:6082dc686d6c6c715338db0faf6c014af3d33598"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:1536126ce96f6d44d8ef7d841d6e8b6271a4955c63fca9c265d39399b280cd97"
+        url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-extract_log.v1300.6.0.x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:57a02a923c9ae0f0bf40ae89754f0d909bd5e5e1"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:5861f95bb503db2fa70800fc9da26405e8efe662bd5ac5a782f90be50c279c32"
+        url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-build_log.v1300.6.0.x86_64-linux-gnu.tar.gz"
+
+    [[builds.sources]]
+    treehash = "sha1:b8c5ac40267aa5f6004dd38cc2b2cd84f2d9d555"
+    url = "https://github.com/tpoechtrager/apple-libtapi"
+
+    [builds.callback_defs]
+
+    [[builds.deps]]
+    name = "Zlib_jll"
+    compat = "1.4"
+    uuid = "83775a58-1f1d-513f-b197-d71354ab007a"
