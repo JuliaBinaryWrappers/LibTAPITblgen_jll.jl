@@ -1,31 +1,60 @@
 [[LibTAPITblgen]]
+arch = "aarch64"
+git-tree-sha1 = "3f922f7d7d75167bf842268cc9f3ba74ffa51216"
+libc = "glibc"
+os = "linux"
+
+    [[LibTAPITblgen.download]]
+    sha256 = "ace4fbc6a3786c7ef1d36ca9a83288933413691f836b3715674297b038c96e4a"
+    url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen.v1300.6.0.aarch64-linux-gnu.tar.gz"
+[[LibTAPITblgen]]
 arch = "x86_64"
 git-tree-sha1 = "912feebf125d8dc10cfa41b4e3bcf159a3beb615"
 libc = "glibc"
 os = "linux"
 
     [[LibTAPITblgen.download]]
-    sha256 = "7abac98cede98efde1c6e63d872ff45dbca5815faf571d167c3b2e90d7787dd5"
+    sha256 = "263082ab57d0cb9b8d02b17563b2834302d081626447411ac9da9a414fd6b765"
     url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen.v1300.6.0.x86_64-linux-gnu.tar.gz"
 
 [[LibTAPITblgen-build_log]]
-arch = "x86_64"
-git-tree-sha1 = "57a02a923c9ae0f0bf40ae89754f0d909bd5e5e1"
+arch = "aarch64"
+git-tree-sha1 = "247829646e8b9783777840d9732731a264c835b2"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[LibTAPITblgen-build_log.download]]
-    sha256 = "5861f95bb503db2fa70800fc9da26405e8efe662bd5ac5a782f90be50c279c32"
+    sha256 = "b5b1c93b6db2b6d74ecf8cc7a834567d2a6b3e4fd3a7010d2b366a767d448e62"
+    url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-build_log.v1300.6.0.aarch64-linux-gnu.tar.gz"
+[[LibTAPITblgen-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "605cc152f8600264047aa24c17aa7a6b593ba263"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LibTAPITblgen-build_log.download]]
+    sha256 = "07764842b05d0fa368f5515994d755db54025abc622b12a8de10414ffeb8651c"
     url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-build_log.v1300.6.0.x86_64-linux-gnu.tar.gz"
 
 [[LibTAPITblgen-extract_log]]
-arch = "x86_64"
-git-tree-sha1 = "6082dc686d6c6c715338db0faf6c014af3d33598"
+arch = "aarch64"
+git-tree-sha1 = "b78e1d742ae5e7f44c6bd49cbbbc6accbf861709"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[LibTAPITblgen-extract_log.download]]
-    sha256 = "1536126ce96f6d44d8ef7d841d6e8b6271a4955c63fca9c265d39399b280cd97"
+    sha256 = "4a0bd86844e7cafa4350604628bcabc08e960a481d444c21da574ac601966fae"
+    url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-extract_log.v1300.6.0.aarch64-linux-gnu.tar.gz"
+[[LibTAPITblgen-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "3c4e569a470b3ced7ac824d51d62164725f9fc5d"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[LibTAPITblgen-extract_log.download]]
+    sha256 = "7fe5deb272d4fb1296c5389701f752d654eddd7a9326f630868063b8cc3cfd17"
     url = "https://github.com/JuliaBinaryWrappers/LibTAPITblgen_jll.jl/releases/download/LibTAPITblgen-v1300.6.0/LibTAPITblgen-extract_log.v1300.6.0.x86_64-linux-gnu.tar.gz"

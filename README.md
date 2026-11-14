@@ -13,6 +13,7 @@ The binaries for `LibTAPITblgen` have been built from upstream sources version v
 `LibTAPITblgen` is available for the following platforms:
 
  - `Platform("x86_64", "linux"; libc = "glibc")`
+ - `Platform("aarch64", "linux"; libc = "glibc")`
 # Dependencies
 The following JLL packages are required by `LibTAPITblgen`:
 
